@@ -58,7 +58,7 @@ def post_order_depth_first(graph, start):
     Iterate over the nodes of the graph (is a tree) in a way such that every
     node is preceded by it's childs.
     `graph` is a dict that represents the `Expression` graph. It's a tree too
-    beacuse Expressions are trees.
+    because Expressions are trees.
     `start` is the node to use as the root of the tree.
     """
     q = [start]
